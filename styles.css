@@ -113,7 +113,7 @@ main {
 }
 
 .why {
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
   padding-bottom: 5rem;
 
   h2 {
@@ -209,4 +209,10 @@ main {
   background-color: #4d0015;
   text-align: center;
   margin-bottom: 5rem;
+}
+
+footer {
+  border-top: 1px solid var(--primary);
+  padding: 1rem;
+  text-align: center;
 }
