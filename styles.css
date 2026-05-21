@@ -20,7 +20,6 @@ body {
 .logo {
   mix-blend-mode: screen;
   max-width: 200px;
-  margin: 0 auto;
 }
 
 h1, h2, h3, .teko {
@@ -215,4 +214,72 @@ footer {
   border-top: 1px solid var(--primary);
   padding: 1rem;
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width: 768px)  {
+  .logo {
+    max-width: 150px;
+  }
+
+  .cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  header, section, footer {
+    max-width: 90vw;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  .tokenomics > .container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 1rem;
+
+    .group {
+      gap: 2rem;
+    }
+  }
+
+  .connect {
+    gap: 2rem;
+
+    div {
+      gap: 0;
+
+      a {
+        transform: scale(.8);
+      }
+    } 
+  }
 }
